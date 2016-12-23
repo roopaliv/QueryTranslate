@@ -1,0 +1,1134 @@
+71.186.149.60:56297 - - [03/Dec/2016 23:34:55] "HTTP/1.1 GET /" - 404 Not Found
+71.186.149.60:56297 - - [03/Dec/2016 23:34:56] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+71.186.149.60:56297 - - [03/Dec/2016 23:35:03] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56297 - - [03/Dec/2016 23:35:07] "HTTP/1.1 POST /hello" - 200 OK
+120.132.49.91:54134 - - [04/Dec/2016 00:03:47] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+91.236.75.4:45586 - - [04/Dec/2016 00:30:00] "HTTP/1.1 GET reader/about/" - 404 Not Found
+1.214.89.69:59833 - - [04/Dec/2016 02:26:57] "HTTP/1.1 GET //jmx-console/HtmlAdaptor" - 404 Not Found
+122.200.94.210:1720 - - [04/Dec/2016 05:47:41] "HTTP/1.1 GET /axis2/" - 404 Not Found
+91.236.75.4:33808 - - [04/Dec/2016 07:05:13] "HTTP/1.1 GET reader/about/" - 404 Not Found
+94.102.49.174:38107 - - [04/Dec/2016 08:12:24] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+54.212.231.177:55396 - - [04/Dec/2016 12:53:10] "HTTP/1.1 GET /manager/html" - 404 Not Found
+42.51.30.37:4478 - - [04/Dec/2016 13:56:49] "HTTP/1.1 GET /manager/html" - 404 Not Found
+212.92.127.143:60000 - - [04/Dec/2016 18:44:42] "HTTP/1.1 GET /" - 404 Not Found
+71.186.149.60:53560 - - [04/Dec/2016 20:07:24] "HTTP/1.1 GET /" - 404 Not Found
+71.186.149.60:53560 - - [04/Dec/2016 20:07:24] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+71.186.149.60:53560 - - [04/Dec/2016 20:07:31] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:53560 - - [04/Dec/2016 20:07:40] "HTTP/1.1 POST /hello" - 200 OK
+93.174.93.136:48501 - - [05/Dec/2016 00:36:13] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+144.0.3.233:4337 - - [05/Dec/2016 01:05:59] "HTTP/1.1 GET /script" - 404 Not Found
+121.18.231.88:2566 - - [05/Dec/2016 01:06:43] "HTTP/1.1 GET /manager/html" - 404 Not Found
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 229, in handle
+    fn, args = self._match(self.mapping, web.ctx.path)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 479, in _match
+    result = utils.re_compile('^' + pat + '$').match(value)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+71.186.149.60:54428 - - [05/Dec/2016 02:05:58] "HTTP/1.1 GET /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 229, in handle
+    fn, args = self._match(self.mapping, web.ctx.path)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 479, in _match
+    result = utils.re_compile('^' + pat + '$').match(value)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+71.186.149.60:54428 - - [05/Dec/2016 02:05:58] "HTTP/1.1 GET /favicon.ico" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 229, in handle
+    fn, args = self._match(self.mapping, web.ctx.path)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 479, in _match
+    result = utils.re_compile('^' + pat + '$').match(value)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+71.186.149.60:54428 - - [05/Dec/2016 02:05:59] "HTTP/1.1 GET /hi" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 229, in handle
+    fn, args = self._match(self.mapping, web.ctx.path)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 479, in _match
+    result = utils.re_compile('^' + pat + '$').match(value)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+71.186.149.60:54428 - - [05/Dec/2016 02:05:59] "HTTP/1.1 GET /favicon.ico" - 500 Internal Server Error
+71.186.149.60:54603 - - [05/Dec/2016 02:17:21] "HTTP/1.1 GET /hi" - 404 Not Found
+71.186.149.60:54603 - - [05/Dec/2016 02:17:21] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+71.186.149.60:54603 - - [05/Dec/2016 02:17:23] "HTTP/1.1 GET /hi" - 404 Not Found
+71.186.149.60:54659 - - [05/Dec/2016 02:36:11] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:54707 - - [05/Dec/2016 02:42:37] "HTTP/1.1 GET /hi" - 404 Not Found
+71.186.149.60:54761 - - [05/Dec/2016 02:50:32] "HTTP/1.1 GET /hello" - 200 OK
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 36, in POST
+    data = urllib.urlopen('http://35.163.101.223:8984/solr/IRPROJECT4/select?q='+url1+'&fl=tweet_text%2Ctweet_lang&wt=json&indent=true&rows='+str(form.page_size)+'&start='+str(((form.page_no-1)*form.page_size)+1)+'&defType=edismax&qf=text_en^2%20text_en_lower%20text_es^2%20text_de^2')
+TypeError: 'unicode' object is not callable
+
+71.186.149.60:54765 - - [05/Dec/2016 02:50:46] "HTTP/1.1 POST /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 36, in POST
+    data = urllib.urlopen('http://35.163.101.223:8984/solr/IRPROJECT4/select?q='+url1+'&fl=tweet_text%2Ctweet_lang&wt=json&indent=true&rows='+str(form.page_size)+'&start='+str(((form.page_no-1)*form.page_size)+1)+'&defType=edismax&qf=text_en^2%20text_en_lower%20text_es^2%20text_de^2')
+TypeError: 'unicode' object is not callable
+
+71.186.149.60:54775 - - [05/Dec/2016 02:56:13] "HTTP/1.1 POST /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 36, in POST
+    data = urllib.urlopen('http://35.163.101.223:8984/solr/IRPROJECT4/select?q='+url1+'&fl=tweet_text%2Ctweet_lang&wt=json&indent=true&rows='+str(form.page_size)+'&start='+str(((form.page_no-1)*form.page_size)+1)+'&defType=edismax&qf=text_en^2%20text_en_lower%20text_es^2%20text_de^2')
+TypeError: 'unicode' object is not callable
+
+71.186.149.60:54775 - - [05/Dec/2016 02:56:17] "HTTP/1.1 POST /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 36, in POST
+    data = urllib.urlopen('http://35.163.101.223:8984/solr/IRPROJECT4/select?q='+url1+'&fl=tweet_text%2Ctweet_lang&wt=json&indent=true&rows='+form.page_size+'&start='+str(((int(form.page_no)-1)*int(form.page_size))+1)+'&defType=edismax&qf=text_en^2%20text_en_lower%20text_es^2%20text_de^2')
+TypeError: 'unicode' object is not callable
+
+71.186.149.60:54868 - - [05/Dec/2016 02:58:47] "HTTP/1.1 POST /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 36, in POST
+    data = urllib.urlopen('http://35.163.101.223:8984/solr/IRPROJECT4/select?q='+url1+'&fl=tweet_text%2Ctweet_lang&wt=json&indent=true&rows='+form.page_size+'&start='+str(((int(form.page_no)-1)*int(form.page_size))+1)+'&defType=edismax&qf=text_en^2%20text_en_lower%20text_es^2%20text_de^2')
+TypeError: 'unicode' object is not callable
+
+71.186.149.60:54868 - - [05/Dec/2016 02:58:51] "HTTP/1.1 POST /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "bin/app.py", line 38, in POST
+    docs = json.load(data)['response']['docs']
+KeyError: 'response'
+
+71.186.149.60:55075 - - [05/Dec/2016 03:10:50] "HTTP/1.1 POST /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "bin/app.py", line 38, in POST
+    docs = json.load(data)['response']['docs']
+KeyError: 'response'
+
+71.186.149.60:55132 - - [05/Dec/2016 03:16:52] "HTTP/1.1 POST /hello" - 500 Internal Server Error
+71.186.149.60:57478 - - [05/Dec/2016 07:46:11] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:57478 - - [05/Dec/2016 07:46:11] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+71.186.149.60:57478 - - [05/Dec/2016 07:46:24] "HTTP/1.1 POST /hello" - 200 OK
+71.186.149.60:57936 - - [05/Dec/2016 09:50:49] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58010 - - [05/Dec/2016 09:51:35] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58010 - - [05/Dec/2016 09:51:35] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+172.56.22.87:46122 - - [05/Dec/2016 09:55:53] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:48291 - - [05/Dec/2016 09:57:43] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:50716 - - [05/Dec/2016 09:58:02] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:36349 - - [05/Dec/2016 09:59:02] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:55211 - - [05/Dec/2016 10:00:10] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:22654 - - [05/Dec/2016 10:00:32] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:35503 - - [05/Dec/2016 10:01:01] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:64628 - - [05/Dec/2016 10:04:30] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:18436 - - [05/Dec/2016 10:05:42] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:32931 - - [05/Dec/2016 10:07:33] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:51016 - - [05/Dec/2016 10:10:02] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:48999 - - [05/Dec/2016 10:10:42] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:48999 - - [05/Dec/2016 10:10:51] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:50667 - - [05/Dec/2016 10:11:14] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:42645 - - [05/Dec/2016 10:13:21] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:42645 - - [05/Dec/2016 10:13:30] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:58264 - - [05/Dec/2016 10:14:09] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:58264 - - [05/Dec/2016 10:14:15] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:58264 - - [05/Dec/2016 10:14:23] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:56920 - - [05/Dec/2016 10:14:38] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:56920 - - [05/Dec/2016 10:14:45] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:21538 - - [05/Dec/2016 10:27:38] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:44760 - - [05/Dec/2016 10:28:03] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:60199 - - [05/Dec/2016 10:28:49] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:22273 - - [05/Dec/2016 10:29:02] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:20970 - - [05/Dec/2016 10:29:23] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:57314 - - [05/Dec/2016 10:34:21] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:57314 - - [05/Dec/2016 10:34:29] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:57314 - - [05/Dec/2016 10:34:37] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:57314 - - [05/Dec/2016 10:34:46] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:57314 - - [05/Dec/2016 10:34:57] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:57314 - - [05/Dec/2016 10:35:07] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:40171 - - [05/Dec/2016 10:36:11] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:35246 - - [05/Dec/2016 10:36:29] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:50245 - - [05/Dec/2016 10:36:51] "HTTP/1.1 GET /hello" - 200 OK
+121.18.231.88:4340 - - [05/Dec/2016 11:10:29] "HTTP/1.1 GET /manager/html" - 404 Not Found
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 19, in GET
+    str1=translate(to_translate)+' '+translate(to_translate, 'es')+' '+translate(to_translate, 'hi')+' '+translate(to_translate, 'de')+' '+translate(to_translate, 'ja')+' '+translate(to_translate, 'ru')+' '+translate(to_translate, 'ar')+' '+translate(to_translate, 'it')+' '+translate(to_translate, 'fr')+' '+translate(to_translate, 'ur')
+  File "/usr/local/lib/python2.7/dist-packages/mtranslate/core.py", line 72, in translate
+    to_translate = urllib.quote_plus(to_translate)
+  File "/usr/lib/python2.7/urllib.py", line 1295, in quote_plus
+    return quote(s, safe)
+  File "/usr/lib/python2.7/urllib.py", line 1288, in quote
+    return ''.join(map(quoter, s))
+KeyError: u'\u041d'
+
+172.56.22.87:36303 - - [05/Dec/2016 11:29:48] "HTTP/1.1 GET /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 19, in GET
+    str1=translate(to_translate)+' '+translate(to_translate, 'es')+' '+translate(to_translate, 'hi')+' '+translate(to_translate, 'de')+' '+translate(to_translate, 'ja')+' '+translate(to_translate, 'ru')+' '+translate(to_translate, 'ar')+' '+translate(to_translate, 'it')+' '+translate(to_translate, 'fr')+' '+translate(to_translate, 'ur')
+  File "/usr/local/lib/python2.7/dist-packages/mtranslate/core.py", line 72, in translate
+    to_translate = urllib.quote_plus(to_translate)
+  File "/usr/lib/python2.7/urllib.py", line 1295, in quote_plus
+    return quote(s, safe)
+  File "/usr/lib/python2.7/urllib.py", line 1288, in quote
+    return ''.join(map(quoter, s))
+KeyError: u'\u0422'
+
+172.56.22.87:44585 - - [05/Dec/2016 11:30:17] "HTTP/1.1 GET /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 19, in GET
+    str1=translate(to_translate)+' '+translate(to_translate, 'es')+' '+translate(to_translate, 'hi')+' '+translate(to_translate, 'de')+' '+translate(to_translate, 'ja')+' '+translate(to_translate, 'ru')+' '+translate(to_translate, 'ar')+' '+translate(to_translate, 'it')+' '+translate(to_translate, 'fr')+' '+translate(to_translate, 'ur')
+  File "/usr/local/lib/python2.7/dist-packages/mtranslate/core.py", line 72, in translate
+    to_translate = urllib.quote_plus(to_translate)
+  File "/usr/lib/python2.7/urllib.py", line 1295, in quote_plus
+    return quote(s, safe)
+  File "/usr/lib/python2.7/urllib.py", line 1288, in quote
+    return ''.join(map(quoter, s))
+KeyError: u'\u0422'
+
+172.56.22.87:37024 - - [05/Dec/2016 11:30:43] "HTTP/1.1 GET /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 19, in GET
+    str1=translate(to_translate)+' '+translate(to_translate, 'es')+' '+translate(to_translate, 'hi')+' '+translate(to_translate, 'de')+' '+translate(to_translate, 'ja')+' '+translate(to_translate, 'ru')+' '+translate(to_translate, 'ar')+' '+translate(to_translate, 'it')+' '+translate(to_translate, 'fr')+' '+translate(to_translate, 'ur')
+  File "/usr/local/lib/python2.7/dist-packages/mtranslate/core.py", line 72, in translate
+    to_translate = urllib.quote_plus(to_translate)
+  File "/usr/lib/python2.7/urllib.py", line 1295, in quote_plus
+    return quote(s, safe)
+  File "/usr/lib/python2.7/urllib.py", line 1288, in quote
+    return ''.join(map(quoter, s))
+KeyError: u'\u062a'
+
+172.56.22.87:49719 - - [05/Dec/2016 11:31:18] "HTTP/1.1 GET /hello" - 500 Internal Server Error
+172.56.22.87:39757 - - [05/Dec/2016 11:31:27] "HTTP/1.1 GET /hello" - 200 OK
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 19, in GET
+    str1=translate(to_translate)+' '+translate(to_translate, 'es')+' '+translate(to_translate, 'hi')+' '+translate(to_translate, 'de')+' '+translate(to_translate, 'ja')+' '+translate(to_translate, 'ru')+' '+translate(to_translate, 'ar')+' '+translate(to_translate, 'it')+' '+translate(to_translate, 'fr')+' '+translate(to_translate, 'ur')
+  File "/usr/local/lib/python2.7/dist-packages/mtranslate/core.py", line 72, in translate
+    to_translate = urllib.quote_plus(to_translate)
+  File "/usr/lib/python2.7/urllib.py", line 1295, in quote_plus
+    return quote(s, safe)
+  File "/usr/lib/python2.7/urllib.py", line 1288, in quote
+    return ''.join(map(quoter, s))
+KeyError: u'\u0422'
+
+71.186.149.60:60331 - - [05/Dec/2016 11:31:56] "HTTP/1.1 GET /hello" - 500 Internal Server Error
+71.186.149.60:60331 - - [05/Dec/2016 11:31:56] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+71.186.149.60:60362 - - [05/Dec/2016 11:35:23] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:56880 - - [05/Dec/2016 11:35:34] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:32692 - - [05/Dec/2016 11:35:49] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:63468 - - [05/Dec/2016 11:41:50] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:59008 - - [05/Dec/2016 11:42:24] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:46149 - - [05/Dec/2016 11:42:43] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:44656 - - [05/Dec/2016 11:43:07] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:44911 - - [05/Dec/2016 11:45:21] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:52957 - - [05/Dec/2016 11:45:35] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:52957 - - [05/Dec/2016 11:45:47] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:52957 - - [05/Dec/2016 11:45:57] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:19565 - - [05/Dec/2016 11:46:12] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:28597 - - [05/Dec/2016 11:46:35] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:28597 - - [05/Dec/2016 11:46:46] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:22832 - - [05/Dec/2016 11:47:02] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:40413 - - [05/Dec/2016 11:47:33] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:28478 - - [05/Dec/2016 11:48:01] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:46483 - - [05/Dec/2016 11:48:27] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:46483 - - [05/Dec/2016 11:48:36] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:46483 - - [05/Dec/2016 11:48:47] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:36438 - - [05/Dec/2016 11:49:45] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:36438 - - [05/Dec/2016 11:49:55] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:36438 - - [05/Dec/2016 11:50:02] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:45191 - - [05/Dec/2016 11:52:24] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:52343 - - [05/Dec/2016 11:52:58] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:35144 - - [05/Dec/2016 11:53:21] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:33643 - - [05/Dec/2016 11:53:45] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:33604 - - [05/Dec/2016 12:01:35] "HTTP/1.1 GET /hello" - 200 OK
+172.56.22.87:28112 - - [05/Dec/2016 12:02:13] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:60796 - - [05/Dec/2016 12:11:55] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60797 - - [05/Dec/2016 12:11:59] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60798 - - [05/Dec/2016 12:12:00] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60799 - - [05/Dec/2016 12:12:02] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60800 - - [05/Dec/2016 12:12:08] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60801 - - [05/Dec/2016 12:12:09] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60802 - - [05/Dec/2016 12:12:19] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60804 - - [05/Dec/2016 12:12:34] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60811 - - [05/Dec/2016 12:12:58] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60812 - - [05/Dec/2016 12:13:02] "HTTP/1.1 OPTIONS /" - 404 Not Found
+71.186.149.60:60882 - - [05/Dec/2016 12:15:45] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:60923 - - [05/Dec/2016 12:16:09] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:60938 - - [05/Dec/2016 12:16:31] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:60952 - - [05/Dec/2016 12:17:37] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:39275 - - [05/Dec/2016 12:42:25] "HTTP/1.1 GET /" - 404 Not Found
+66.249.83.194:46317 - - [05/Dec/2016 12:42:25] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+71.186.149.60:61156 - - [05/Dec/2016 12:50:58] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:61156 - - [05/Dec/2016 12:51:06] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55796 - - [05/Dec/2016 12:52:29] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55813 - - [05/Dec/2016 12:52:59] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55813 - - [05/Dec/2016 12:53:02] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55821 - - [05/Dec/2016 12:53:18] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55859 - - [05/Dec/2016 12:53:47] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55859 - - [05/Dec/2016 12:53:50] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55865 - - [05/Dec/2016 12:54:17] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55872 - - [05/Dec/2016 12:54:51] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55872 - - [05/Dec/2016 12:54:58] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55872 - - [05/Dec/2016 12:55:06] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55880 - - [05/Dec/2016 12:55:23] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55880 - - [05/Dec/2016 12:55:33] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55888 - - [05/Dec/2016 12:56:21] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55892 - - [05/Dec/2016 12:58:13] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55895 - - [05/Dec/2016 12:58:44] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55895 - - [05/Dec/2016 12:58:54] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55900 - - [05/Dec/2016 12:59:34] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55909 - - [05/Dec/2016 13:00:10] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55916 - - [05/Dec/2016 13:00:25] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55916 - - [05/Dec/2016 13:00:37] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55922 - - [05/Dec/2016 13:01:51] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55922 - - [05/Dec/2016 13:01:58] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55932 - - [05/Dec/2016 13:02:26] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55933 - - [05/Dec/2016 13:02:29] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55933 - - [05/Dec/2016 13:02:41] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55933 - - [05/Dec/2016 13:02:44] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55933 - - [05/Dec/2016 13:02:54] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55933 - - [05/Dec/2016 13:02:56] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:61294 - - [05/Dec/2016 13:09:50] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:61338 - - [05/Dec/2016 13:11:16] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:48730 - - [05/Dec/2016 13:11:22] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:64668 - - [05/Dec/2016 13:11:25] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:61361 - - [05/Dec/2016 13:11:55] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:61365 - - [05/Dec/2016 13:12:16] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:49574 - - [05/Dec/2016 13:13:08] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:60828 - - [05/Dec/2016 13:13:10] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:63628 - - [05/Dec/2016 13:14:29] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:50601 - - [05/Dec/2016 13:14:32] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:50601 - - [05/Dec/2016 13:14:36] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:58101 - - [05/Dec/2016 13:14:51] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:57155 - - [05/Dec/2016 13:15:04] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:57155 - - [05/Dec/2016 13:15:09] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:57155 - - [05/Dec/2016 13:15:14] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:61649 - - [05/Dec/2016 13:15:18] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:41774 - - [05/Dec/2016 13:15:26] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:39327 - - [05/Dec/2016 13:15:58] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:59222 - - [05/Dec/2016 13:15:59] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:59637 - - [05/Dec/2016 13:16:03] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:59649 - - [05/Dec/2016 13:16:17] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:53597 - - [05/Dec/2016 13:16:31] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:50681 - - [05/Dec/2016 13:16:46] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:50681 - - [05/Dec/2016 13:16:49] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:37849 - - [05/Dec/2016 13:16:52] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:49754 - - [05/Dec/2016 13:17:07] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:55297 - - [05/Dec/2016 13:17:23] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:44620 - - [05/Dec/2016 13:17:28] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:59337 - - [05/Dec/2016 13:17:34] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:62118 - - [05/Dec/2016 13:17:48] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:56637 - - [05/Dec/2016 13:18:04] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:55006 - - [05/Dec/2016 13:18:19] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:55006 - - [05/Dec/2016 13:18:22] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:51849 - - [05/Dec/2016 13:19:04] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:37293 - - [05/Dec/2016 13:19:07] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:51849 - - [05/Dec/2016 13:19:16] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:41969 - - [05/Dec/2016 13:19:19] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:59420 - - [05/Dec/2016 13:19:22] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:59420 - - [05/Dec/2016 13:19:28] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:50524 - - [05/Dec/2016 13:19:34] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:58552 - - [05/Dec/2016 13:19:37] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:36542 - - [05/Dec/2016 13:19:43] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:36542 - - [05/Dec/2016 13:19:46] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:58552 - - [05/Dec/2016 13:19:49] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.223:58552 - - [05/Dec/2016 13:19:52] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.192:45916 - - [05/Dec/2016 13:19:57] "HTTP/1.1 GET /hello" - 200 OK
+66.249.83.194:59456 - - [05/Dec/2016 13:20:05] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:10116 - - [05/Dec/2016 20:10:10] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:10116 - - [05/Dec/2016 20:10:21] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:10610 - - [05/Dec/2016 20:10:34] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:10003 - - [05/Dec/2016 20:10:49] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:10003 - - [05/Dec/2016 20:10:57] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:10003 - - [05/Dec/2016 20:11:08] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53926 - - [05/Dec/2016 20:26:30] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53927 - - [05/Dec/2016 20:27:22] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53927 - - [05/Dec/2016 20:27:25] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53928 - - [05/Dec/2016 20:28:09] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53928 - - [05/Dec/2016 20:28:12] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53952 - - [05/Dec/2016 20:29:00] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53952 - - [05/Dec/2016 20:29:03] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53970 - - [05/Dec/2016 20:29:28] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53970 - - [05/Dec/2016 20:29:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53983 - - [05/Dec/2016 20:33:07] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53990 - - [05/Dec/2016 20:35:08] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:53990 - - [05/Dec/2016 20:35:16] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:61732 - - [05/Dec/2016 20:37:04] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:61732 - - [05/Dec/2016 20:37:07] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54115 - - [05/Dec/2016 20:38:05] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54115 - - [05/Dec/2016 20:38:07] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54115 - - [05/Dec/2016 20:38:10] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54119 - - [05/Dec/2016 20:38:41] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54119 - - [05/Dec/2016 20:38:44] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:61742 - - [05/Dec/2016 20:39:06] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54128 - - [05/Dec/2016 20:41:14] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54128 - - [05/Dec/2016 20:41:17] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54203 - - [05/Dec/2016 20:43:57] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54203 - - [05/Dec/2016 20:44:00] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54219 - - [05/Dec/2016 20:44:48] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54222 - - [05/Dec/2016 20:45:39] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54222 - - [05/Dec/2016 20:45:42] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54227 - - [05/Dec/2016 20:47:28] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54227 - - [05/Dec/2016 20:47:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54232 - - [05/Dec/2016 20:48:08] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54232 - - [05/Dec/2016 20:48:11] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54236 - - [05/Dec/2016 20:48:28] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54236 - - [05/Dec/2016 20:48:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54410 - - [05/Dec/2016 21:01:04] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54412 - - [05/Dec/2016 21:01:56] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54524 - - [05/Dec/2016 21:04:32] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54524 - - [05/Dec/2016 21:04:41] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54524 - - [05/Dec/2016 21:04:48] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54524 - - [05/Dec/2016 21:04:55] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54524 - - [05/Dec/2016 21:04:58] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54537 - - [05/Dec/2016 21:05:19] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54537 - - [05/Dec/2016 21:05:22] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54537 - - [05/Dec/2016 21:05:34] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54576 - - [05/Dec/2016 21:10:01] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54576 - - [05/Dec/2016 21:10:04] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54576 - - [05/Dec/2016 21:10:08] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:63325 - - [05/Dec/2016 21:17:35] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:63333 - - [05/Dec/2016 21:18:00] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56643 - - [05/Dec/2016 21:29:04] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56648 - - [05/Dec/2016 21:29:18] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56648 - - [05/Dec/2016 21:29:24] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56648 - - [05/Dec/2016 21:29:31] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56648 - - [05/Dec/2016 21:29:36] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56648 - - [05/Dec/2016 21:29:45] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56660 - - [05/Dec/2016 21:30:05] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56660 - - [05/Dec/2016 21:30:08] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56673 - - [05/Dec/2016 21:30:25] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56677 - - [05/Dec/2016 21:30:50] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56677 - - [05/Dec/2016 21:30:53] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56677 - - [05/Dec/2016 21:31:03] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56692 - - [05/Dec/2016 21:31:40] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56704 - - [05/Dec/2016 21:32:19] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56704 - - [05/Dec/2016 21:32:27] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54703 - - [05/Dec/2016 22:01:47] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54703 - - [05/Dec/2016 22:01:50] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54709 - - [05/Dec/2016 22:02:03] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54709 - - [05/Dec/2016 22:02:06] "HTTP/1.1 GET /hello" - 200 OK
+212.92.127.143:60000 - - [05/Dec/2016 22:03:39] "HTTP/1.1 GET /" - 404 Not Found
+69.204.36.244:54773 - - [05/Dec/2016 22:05:46] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54773 - - [05/Dec/2016 22:05:49] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54786 - - [05/Dec/2016 22:06:59] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54786 - - [05/Dec/2016 22:07:02] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54827 - - [05/Dec/2016 22:11:51] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54827 - - [05/Dec/2016 22:11:54] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54829 - - [05/Dec/2016 22:11:55] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54827 - - [05/Dec/2016 22:11:57] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:13480 - - [05/Dec/2016 22:32:52] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:13480 - - [05/Dec/2016 22:33:02] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16044 - - [05/Dec/2016 22:34:17] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16044 - - [05/Dec/2016 22:34:25] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16044 - - [05/Dec/2016 22:34:32] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16902 - - [05/Dec/2016 22:36:58] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16902 - - [05/Dec/2016 22:37:05] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16902 - - [05/Dec/2016 22:37:11] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16902 - - [05/Dec/2016 22:37:24] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:11976 - - [05/Dec/2016 22:38:26] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:11976 - - [05/Dec/2016 22:38:38] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:12047 - - [05/Dec/2016 22:39:16] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:15755 - - [05/Dec/2016 22:39:39] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:14924 - - [05/Dec/2016 22:40:22] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:14924 - - [05/Dec/2016 22:40:29] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:14924 - - [05/Dec/2016 22:40:39] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16968 - - [05/Dec/2016 22:41:00] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:16968 - - [05/Dec/2016 22:41:08] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:12683 - - [05/Dec/2016 22:41:32] "HTTP/1.1 GET /hello" - 200 OK
+38.95.255.223:12683 - - [05/Dec/2016 22:41:40] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54924 - - [05/Dec/2016 22:45:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54924 - - [05/Dec/2016 22:45:34] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54924 - - [05/Dec/2016 22:45:40] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54924 - - [05/Dec/2016 22:45:43] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54929 - - [05/Dec/2016 22:47:22] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54929 - - [05/Dec/2016 22:47:25] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54929 - - [05/Dec/2016 22:47:28] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54930 - - [05/Dec/2016 22:47:28] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54929 - - [05/Dec/2016 22:47:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54930 - - [05/Dec/2016 22:47:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54930 - - [05/Dec/2016 22:47:34] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54930 - - [05/Dec/2016 22:47:37] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54933 - - [05/Dec/2016 22:48:30] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54933 - - [05/Dec/2016 22:48:38] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54933 - - [05/Dec/2016 22:48:41] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54933 - - [05/Dec/2016 22:48:47] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54933 - - [05/Dec/2016 22:48:53] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:48:56] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:01] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:04] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:13] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:16] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:19] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:28] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:34] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54947 - - [05/Dec/2016 22:49:37] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54959 - - [05/Dec/2016 22:52:18] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54959 - - [05/Dec/2016 22:52:21] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54959 - - [05/Dec/2016 22:52:30] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54959 - - [05/Dec/2016 22:52:33] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54959 - - [05/Dec/2016 22:52:39] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54978 - - [05/Dec/2016 22:52:57] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54983 - - [05/Dec/2016 22:53:32] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54983 - - [05/Dec/2016 22:53:35] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54983 - - [05/Dec/2016 22:53:45] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54983 - - [05/Dec/2016 22:53:47] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54983 - - [05/Dec/2016 22:53:50] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54997 - - [05/Dec/2016 22:54:48] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54997 - - [05/Dec/2016 22:54:51] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54997 - - [05/Dec/2016 22:54:58] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:54997 - - [05/Dec/2016 22:55:01] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55003 - - [05/Dec/2016 22:55:14] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55011 - - [05/Dec/2016 22:58:19] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55011 - - [05/Dec/2016 22:58:21] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55048 - - [05/Dec/2016 22:59:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55048 - - [05/Dec/2016 22:59:35] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55059 - - [05/Dec/2016 23:01:48] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55059 - - [05/Dec/2016 23:01:51] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55063 - - [05/Dec/2016 23:02:19] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55063 - - [05/Dec/2016 23:02:22] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55062 - - [05/Dec/2016 23:02:22] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55062 - - [05/Dec/2016 23:02:25] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55074 - - [05/Dec/2016 23:02:39] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55074 - - [05/Dec/2016 23:02:41] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55074 - - [05/Dec/2016 23:02:48] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55074 - - [05/Dec/2016 23:02:57] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55087 - - [05/Dec/2016 23:04:03] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55087 - - [05/Dec/2016 23:04:06] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55087 - - [05/Dec/2016 23:04:09] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55087 - - [05/Dec/2016 23:04:12] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55112 - - [05/Dec/2016 23:06:32] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55112 - - [05/Dec/2016 23:06:35] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:61996 - - [05/Dec/2016 23:07:31] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55144 - - [05/Dec/2016 23:07:47] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55156 - - [05/Dec/2016 23:08:30] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55156 - - [05/Dec/2016 23:08:33] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55156 - - [05/Dec/2016 23:08:36] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:62001 - - [05/Dec/2016 23:08:38] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55168 - - [05/Dec/2016 23:09:13] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55168 - - [05/Dec/2016 23:09:16] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55183 - - [05/Dec/2016 23:12:21] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55195 - - [05/Dec/2016 23:12:38] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55195 - - [05/Dec/2016 23:12:47] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55195 - - [05/Dec/2016 23:12:50] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55195 - - [05/Dec/2016 23:12:53] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55234 - - [05/Dec/2016 23:14:54] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55237 - - [05/Dec/2016 23:15:15] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55252 - - [05/Dec/2016 23:16:02] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55252 - - [05/Dec/2016 23:16:05] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55257 - - [05/Dec/2016 23:16:34] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55257 - - [05/Dec/2016 23:16:37] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55257 - - [05/Dec/2016 23:16:43] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55257 - - [05/Dec/2016 23:16:46] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55267 - - [05/Dec/2016 23:17:02] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55270 - - [05/Dec/2016 23:17:24] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55270 - - [05/Dec/2016 23:17:33] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55270 - - [05/Dec/2016 23:17:40] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56916 - - [05/Dec/2016 23:18:39] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56916 - - [05/Dec/2016 23:18:42] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55298 - - [05/Dec/2016 23:21:26] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55298 - - [05/Dec/2016 23:21:29] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55313 - - [05/Dec/2016 23:25:12] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55325 - - [05/Dec/2016 23:25:26] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55325 - - [05/Dec/2016 23:25:29] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55325 - - [05/Dec/2016 23:25:33] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55325 - - [05/Dec/2016 23:25:36] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55325 - - [05/Dec/2016 23:25:42] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55346 - - [05/Dec/2016 23:25:56] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55356 - - [05/Dec/2016 23:26:19] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55356 - - [05/Dec/2016 23:26:22] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55356 - - [05/Dec/2016 23:26:29] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55356 - - [05/Dec/2016 23:26:34] "HTTP/1.1 GET /hello" - 200 OK
+94.102.49.174:34623 - - [06/Dec/2016 00:17:48] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+69.204.36.244:55509 - - [06/Dec/2016 00:31:26] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55509 - - [06/Dec/2016 00:31:29] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55514 - - [06/Dec/2016 00:31:42] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55514 - - [06/Dec/2016 00:31:51] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55519 - - [06/Dec/2016 00:33:12] "HTTP/1.1 GET /hello" - 200 OK
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 43, in GET
+    totalcount=json.load(countdata)['response']['numFound']
+KeyError: 'response'
+
+66.249.83.192:53190 - - [06/Dec/2016 00:33:18] "HTTP/1.1 GET /hello" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/ubuntu/projects/webpython/bin/app.py", line 43, in GET
+    totalcount=json.load(countdata)['response']['numFound']
+KeyError: 'response'
+
+71.186.149.60:53071 - - [06/Dec/2016 00:33:19] "HTTP/1.1 GET /hello" - 500 Internal Server Error
+69.204.36.244:55523 - - [06/Dec/2016 00:33:35] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55539 - - [06/Dec/2016 00:34:00] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55542 - - [06/Dec/2016 00:34:14] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55542 - - [06/Dec/2016 00:34:23] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55558 - - [06/Dec/2016 00:34:40] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55558 - - [06/Dec/2016 00:34:47] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55572 - - [06/Dec/2016 00:35:03] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55579 - - [06/Dec/2016 00:35:25] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55579 - - [06/Dec/2016 00:35:28] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55579 - - [06/Dec/2016 00:35:40] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55579 - - [06/Dec/2016 00:35:43] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55586 - - [06/Dec/2016 00:35:44] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55586 - - [06/Dec/2016 00:35:57] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55586 - - [06/Dec/2016 00:36:08] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55612 - - [06/Dec/2016 00:38:47] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:62070 - - [06/Dec/2016 00:38:49] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:62070 - - [06/Dec/2016 00:38:54] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:62070 - - [06/Dec/2016 00:38:57] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:62070 - - [06/Dec/2016 00:39:04] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55623 - - [06/Dec/2016 00:39:32] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55626 - - [06/Dec/2016 00:39:50] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:64723 - - [06/Dec/2016 01:55:16] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:64971 - - [06/Dec/2016 02:07:04] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:65197 - - [06/Dec/2016 02:18:33] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55834 - - [06/Dec/2016 03:01:15] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55834 - - [06/Dec/2016 03:01:18] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55834 - - [06/Dec/2016 03:01:25] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:55834 - - [06/Dec/2016 03:01:28] "HTTP/1.1 GET /hello" - 200 OK
+14.215.156.100:60000 - - [06/Dec/2016 03:54:04] "HTTP/1.1 GET /" - 404 Not Found
+93.174.93.136:52705 - - [06/Dec/2016 05:01:00] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+155.94.254.143:35688 - - [06/Dec/2016 06:33:28] "HTTP/1.1 GET /" - 404 Not Found
+180.150.187.149:55420 - - [06/Dec/2016 08:05:52] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+91.236.75.4:59628 - - [06/Dec/2016 09:19:49] "HTTP/1.1 GET reader/about/" - 404 Not Found
+222.133.11.46:56581 - - [06/Dec/2016 11:06:44] "HTTP/1.1 GET /manager/html" - 404 Not Found
+117.21.191.2:3823 - - [06/Dec/2016 12:42:36] "HTTP/1.1 GET /manager/html" - 404 Not Found
+71.186.149.60:58895 - - [06/Dec/2016 15:14:27] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58895 - - [06/Dec/2016 15:14:35] "HTTP/1.1 GET /hello" - 200 OK
+198.20.69.74:60515 - - [06/Dec/2016 16:34:38] "HTTP/1.1 GET /" - 404 Not Found
+198.20.69.74:60715 - - [06/Dec/2016 16:34:38] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+198.20.69.74:60781 - - [06/Dec/2016 16:34:38] "HTTP/1.1 GET /sitemap.xml" - 404 Not Found
+66.249.83.223:63728 - - [06/Dec/2016 18:34:40] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59538 - - [06/Dec/2016 21:00:24] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59551 - - [06/Dec/2016 21:00:44] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59551 - - [06/Dec/2016 21:00:47] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59551 - - [06/Dec/2016 21:00:54] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59572 - - [06/Dec/2016 21:01:11] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59579 - - [06/Dec/2016 21:03:53] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59589 - - [06/Dec/2016 21:04:35] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59589 - - [06/Dec/2016 21:04:38] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59589 - - [06/Dec/2016 21:04:45] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59589 - - [06/Dec/2016 21:04:53] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59606 - - [06/Dec/2016 21:05:27] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59606 - - [06/Dec/2016 21:05:30] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59618 - - [06/Dec/2016 21:06:45] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59624 - - [06/Dec/2016 21:08:38] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59639 - - [06/Dec/2016 21:08:51] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59639 - - [06/Dec/2016 21:09:03] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59642 - - [06/Dec/2016 21:09:05] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59650 - - [06/Dec/2016 21:10:14] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59650 - - [06/Dec/2016 21:10:17] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59661 - - [06/Dec/2016 21:12:18] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59661 - - [06/Dec/2016 21:12:24] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59664 - - [06/Dec/2016 21:12:38] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59678 - - [06/Dec/2016 21:15:13] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59685 - - [06/Dec/2016 21:15:30] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59685 - - [06/Dec/2016 21:15:41] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59692 - - [06/Dec/2016 21:16:03] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59698 - - [06/Dec/2016 21:16:17] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59700 - - [06/Dec/2016 21:16:32] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59700 - - [06/Dec/2016 21:16:43] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59707 - - [06/Dec/2016 21:16:58] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59711 - - [06/Dec/2016 21:17:14] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59711 - - [06/Dec/2016 21:17:25] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59711 - - [06/Dec/2016 21:17:35] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59711 - - [06/Dec/2016 21:17:46] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59720 - - [06/Dec/2016 21:18:05] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59720 - - [06/Dec/2016 21:18:11] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59720 - - [06/Dec/2016 21:18:17] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59720 - - [06/Dec/2016 21:18:29] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59720 - - [06/Dec/2016 21:18:35] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59720 - - [06/Dec/2016 21:18:42] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59720 - - [06/Dec/2016 21:18:47] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:19:01] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:19:07] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:19:19] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:19:26] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:19:31] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:19:42] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:19:48] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:19:56] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59727 - - [06/Dec/2016 21:20:02] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59741 - - [06/Dec/2016 21:20:17] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59744 - - [06/Dec/2016 21:20:45] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59744 - - [06/Dec/2016 21:20:57] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59751 - - [06/Dec/2016 21:21:29] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59756 - - [06/Dec/2016 21:21:50] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59780 - - [06/Dec/2016 21:28:44] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59780 - - [06/Dec/2016 21:28:47] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59784 - - [06/Dec/2016 21:29:14] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59794 - - [06/Dec/2016 21:29:42] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59804 - - [06/Dec/2016 21:29:58] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59804 - - [06/Dec/2016 21:30:09] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59820 - - [06/Dec/2016 21:30:57] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59827 - - [06/Dec/2016 21:32:56] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59827 - - [06/Dec/2016 21:33:01] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59830 - - [06/Dec/2016 21:33:18] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59833 - - [06/Dec/2016 21:33:39] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59859 - - [06/Dec/2016 21:43:34] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59862 - - [06/Dec/2016 21:44:25] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59864 - - [06/Dec/2016 21:44:41] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59877 - - [06/Dec/2016 21:45:01] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59881 - - [06/Dec/2016 21:45:52] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59883 - - [06/Dec/2016 21:46:29] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59883 - - [06/Dec/2016 21:46:35] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59892 - - [06/Dec/2016 21:47:59] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59895 - - [06/Dec/2016 21:48:24] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59895 - - [06/Dec/2016 21:48:34] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59895 - - [06/Dec/2016 21:48:40] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59899 - - [06/Dec/2016 21:49:19] "HTTP/1.1 GET /hello" - 200 OK
+67.20.204.116:59902 - - [06/Dec/2016 21:50:24] "HTTP/1.1 GET /hello" - 200 OK
+91.236.75.4:55478 - - [06/Dec/2016 23:48:49] "HTTP/1.1 GET reader/about/" - 404 Not Found
+123.59.69.128:41093 - - [07/Dec/2016 06:49:19] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+171.105.77.12:48871 - - [07/Dec/2016 09:00:52] "HTTP/1.1 GET /script" - 404 Not Found
+93.174.93.136:38413 - - [07/Dec/2016 09:21:53] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+123.59.57.251:44879 - - [07/Dec/2016 10:29:50] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+117.21.191.2:4974 - - [07/Dec/2016 10:44:34] "HTTP/1.1 GET /manager/html" - 404 Not Found
+94.102.49.174:56182 - - [07/Dec/2016 16:20:14] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+124.192.177.198:2964 - - [08/Dec/2016 00:17:38] "HTTP/1.1 GET /" - 404 Not Found
+71.186.149.60:63863 - - [08/Dec/2016 00:28:55] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:63863 - - [08/Dec/2016 00:29:03] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:63863 - - [08/Dec/2016 00:29:09] "HTTP/1.1 GET /hello" - 200 OK
+222.186.34.119:3898 - - [08/Dec/2016 05:19:19] "HTTP/1.1 GET /script" - 404 Not Found
+212.92.127.201:52349 - - [08/Dec/2016 08:28:37] "HTTP/1.1 GET /" - 404 Not Found
+180.150.188.118:40889 - - [08/Dec/2016 09:31:30] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+61.164.149.211:60741 - - [08/Dec/2016 09:41:18] "HTTP/1.1 GET index.aspx" - 404 Not Found
+123.59.56.200:52944 - - [08/Dec/2016 11:32:26] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+61.216.2.13:40049 - - [08/Dec/2016 11:48:10] "HTTP/1.1 GET /" - 404 Not Found
+93.174.93.136:57594 - - [08/Dec/2016 13:44:55] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+121.18.231.88:4636 - - [08/Dec/2016 14:28:51] "HTTP/1.1 GET /manager/html" - 404 Not Found
+69.12.16.7:50124 - - [08/Dec/2016 18:20:05] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:50124 - - [08/Dec/2016 18:20:12] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:50124 - - [08/Dec/2016 18:20:14] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:53688 - - [08/Dec/2016 18:20:17] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:50124 - - [08/Dec/2016 18:20:17] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:49419 - - [08/Dec/2016 18:20:19] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:57254 - - [08/Dec/2016 18:20:37] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:57254 - - [08/Dec/2016 18:20:45] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:57254 - - [08/Dec/2016 18:20:55] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:52555 - - [08/Dec/2016 18:21:09] "HTTP/1.1 GET /hello" - 200 OK
+69.12.16.7:52555 - - [08/Dec/2016 18:21:18] "HTTP/1.1 GET /hello" - 200 OK
+198.12.15.59:39531 - - [08/Dec/2016 20:02:34] "HTTP/1.1 GET index.aspx" - 404 Not Found
+185.110.132.231:57854 - - [08/Dec/2016 22:49:39] "HTTP/1.1 GET /" - 404 Not Found
+172.101.116.34:52533 - - [08/Dec/2016 23:56:46] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52541 - - [08/Dec/2016 23:57:05] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52541 - - [08/Dec/2016 23:57:07] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52541 - - [08/Dec/2016 23:57:20] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52541 - - [08/Dec/2016 23:57:23] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52541 - - [08/Dec/2016 23:57:26] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52551 - - [08/Dec/2016 23:58:20] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52551 - - [08/Dec/2016 23:58:23] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52551 - - [08/Dec/2016 23:58:26] "HTTP/1.1 GET /hello" - 200 OK
+172.101.116.34:52551 - - [08/Dec/2016 23:58:29] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:49799 - - [09/Dec/2016 02:27:08] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:49799 - - [09/Dec/2016 02:27:11] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:49799 - - [09/Dec/2016 02:27:20] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:49799 - - [09/Dec/2016 02:27:28] "HTTP/1.1 GET /hello" - 200 OK
+69.204.36.244:49799 - - [09/Dec/2016 02:27:30] "HTTP/1.1 GET /hello" - 200 OK
+222.186.15.113:1395 - - [09/Dec/2016 04:03:37] "HTTP/1.1 GET /manager/html" - 404 Not Found
+60.191.221.144:3364 - - [09/Dec/2016 05:21:03] "HTTP/1.1 GET /manager/html" - 404 Not Found
+94.102.49.174:50834 - - [09/Dec/2016 08:25:40] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+159.122.133.213:49066 - - [09/Dec/2016 17:18:12] "HTTP/1.1 GET /" - 404 Not Found
+115.231.175.112:1905 - - [09/Dec/2016 17:55:54] "HTTP/1.1 GET /script" - 404 Not Found
+93.174.93.136:42483 - - [09/Dec/2016 18:07:49] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+71.186.149.60:55716 - - [09/Dec/2016 19:06:36] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55744 - - [09/Dec/2016 19:09:28] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55749 - - [09/Dec/2016 19:09:51] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55749 - - [09/Dec/2016 19:10:02] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55754 - - [09/Dec/2016 19:10:55] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55771 - - [09/Dec/2016 19:13:05] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55779 - - [09/Dec/2016 19:16:16] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55785 - - [09/Dec/2016 19:17:45] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55797 - - [09/Dec/2016 19:18:31] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55804 - - [09/Dec/2016 19:19:08] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55806 - - [09/Dec/2016 19:19:40] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55810 - - [09/Dec/2016 19:21:21] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55813 - - [09/Dec/2016 19:21:56] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55832 - - [09/Dec/2016 19:24:16] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55832 - - [09/Dec/2016 19:24:18] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55834 - - [09/Dec/2016 19:24:37] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55849 - - [09/Dec/2016 19:25:26] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55854 - - [09/Dec/2016 19:26:01] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55862 - - [09/Dec/2016 19:27:47] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55875 - - [09/Dec/2016 19:28:33] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55887 - - [09/Dec/2016 19:34:55] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55891 - - [09/Dec/2016 19:35:27] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55892 - - [09/Dec/2016 19:35:41] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55892 - - [09/Dec/2016 19:35:47] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55905 - - [09/Dec/2016 19:37:08] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55910 - - [09/Dec/2016 19:37:38] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55912 - - [09/Dec/2016 19:38:04] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55915 - - [09/Dec/2016 19:38:30] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55920 - - [09/Dec/2016 19:40:42] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55928 - - [09/Dec/2016 19:45:09] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55935 - - [09/Dec/2016 19:46:23] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55935 - - [09/Dec/2016 19:46:27] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55960 - - [09/Dec/2016 19:51:04] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55963 - - [09/Dec/2016 19:51:29] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55971 - - [09/Dec/2016 19:51:45] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:55996 - - [09/Dec/2016 19:56:39] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56007 - - [09/Dec/2016 19:57:38] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56011 - - [09/Dec/2016 19:58:07] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56021 - - [09/Dec/2016 19:58:36] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56028 - - [09/Dec/2016 20:00:28] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56045 - - [09/Dec/2016 20:01:36] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:56045 - - [09/Dec/2016 20:01:40] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:57439 - - [09/Dec/2016 20:27:39] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:57439 - - [09/Dec/2016 20:27:42] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58008 - - [09/Dec/2016 20:37:04] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58497 - - [09/Dec/2016 21:06:12] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58497 - - [09/Dec/2016 21:06:23] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58497 - - [09/Dec/2016 21:06:33] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58514 - - [09/Dec/2016 21:06:59] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58524 - - [09/Dec/2016 21:07:16] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58532 - - [09/Dec/2016 21:07:34] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58532 - - [09/Dec/2016 21:07:46] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58532 - - [09/Dec/2016 21:07:58] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58557 - - [09/Dec/2016 21:08:18] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58566 - - [09/Dec/2016 21:08:35] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58575 - - [09/Dec/2016 21:08:57] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58576 - - [09/Dec/2016 21:09:16] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58576 - - [09/Dec/2016 21:09:26] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58586 - - [09/Dec/2016 21:10:29] "HTTP/1.1 GET /hello" - 200 OK
+198.12.15.59:40960 - - [09/Dec/2016 21:46:25] "HTTP/1.1 GET index.aspx" - 404 Not Found
+71.186.149.60:58855 - - [09/Dec/2016 21:48:19] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:48:26] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:48:38] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:48:48] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:48:55] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:49:04] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:49:11] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:49:19] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:49:23] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:49:27] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:49:29] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58858 - - [09/Dec/2016 21:49:33] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58906 - - [09/Dec/2016 21:50:03] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58906 - - [09/Dec/2016 21:50:08] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58906 - - [09/Dec/2016 21:50:16] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58906 - - [09/Dec/2016 21:50:28] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58906 - - [09/Dec/2016 21:50:42] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58931 - - [09/Dec/2016 21:50:59] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58940 - - [09/Dec/2016 21:51:21] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:58946 - - [09/Dec/2016 21:51:34] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:59188 - - [09/Dec/2016 22:32:11] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:59224 - - [09/Dec/2016 22:37:17] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:59224 - - [09/Dec/2016 22:37:20] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:59224 - - [09/Dec/2016 22:37:29] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:22703 - - [09/Dec/2016 23:55:18] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:01:15] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:01:26] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:01:31] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:01:38] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:01:48] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:01:53] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:01:59] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:02:06] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:02:12] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17320 - - [10/Dec/2016 00:02:23] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:18266 - - [10/Dec/2016 00:02:45] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:21762 - - [10/Dec/2016 00:02:46] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:21762 - - [10/Dec/2016 00:02:51] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:21762 - - [10/Dec/2016 00:02:57] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:21762 - - [10/Dec/2016 00:03:02] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:24888 - - [10/Dec/2016 00:03:03] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:24888 - - [10/Dec/2016 00:03:09] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:24888 - - [10/Dec/2016 00:03:17] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:17420 - - [10/Dec/2016 00:42:46] "HTTP/1.1 GET /hello" - 200 OK
+38.95.248.181:22140 - - [10/Dec/2016 00:47:41] "HTTP/1.1 GET /hello" - 200 OK
+68.133.35.112:51879 - - [10/Dec/2016 01:33:12] "HTTP/1.1 GET /hello" - 200 OK
+68.133.35.112:51879 - - [10/Dec/2016 01:33:12] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+68.133.35.112:51879 - - [10/Dec/2016 01:33:13] "HTTP/1.1 GET /" - 404 Not Found
+68.133.35.112:51891 - - [10/Dec/2016 01:33:39] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:57456 - - [10/Dec/2016 02:46:17] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:57460 - - [10/Dec/2016 02:46:33] "HTTP/1.1 GET /hello" - 200 OK
+71.186.149.60:57460 - - [10/Dec/2016 02:46:36] "HTTP/1.1 GET /hello" - 200 OK
+103.37.146.216:34407 - - [10/Dec/2016 02:49:15] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+120.132.68.142:56813 - - [10/Dec/2016 03:15:12] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+196.52.43.51:58663 - - [10/Dec/2016 05:59:45] "HTTP/1.1 GET /" - 404 Not Found
+179.215.18.8:36249 - - [10/Dec/2016 08:14:08] "HTTP/1.1 GET /cgi/common.cgi" - 404 Not Found
+179.215.18.8:36250 - - [10/Dec/2016 08:14:09] "HTTP/1.1 GET /stssys.htm" - 404 Not Found
+179.215.18.8:36252 - - [10/Dec/2016 08:14:09] "HTTP/1.1 GET /" - 404 Not Found
+179.215.18.8:36255 - - [10/Dec/2016 08:14:09] "HTTP/1.1 POST /command.php" - 404 Not Found
+139.201.126.178:1613 - - [10/Dec/2016 12:03:11] "HTTP/1.1 GET /manager/html" - 404 Not Found
+54.213.152.196:63747 - - [10/Dec/2016 12:21:57] "HTTP/1.1 GET /manager/html" - 404 Not Found
+120.132.68.142:53738 - - [10/Dec/2016 12:23:42] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+212.92.127.143:60000 - - [10/Dec/2016 13:20:40] "HTTP/1.1 GET /" - 404 Not Found
+59.125.68.157:40138 - - [10/Dec/2016 13:56:03] "HTTP/1.1 GET /" - 404 Not Found
+195.2.253.2:60000 - - [10/Dec/2016 14:51:52] "HTTP/1.1 GET /" - 404 Not Found
+122.200.94.210:1135 - - [10/Dec/2016 15:58:38] "HTTP/1.1 GET /login/LoginForm.jsp" - 404 Not Found
+138.0.71.156:56240 - - [10/Dec/2016 21:41:52] "HTTP/1.1 HEAD /" - 404 Not Found
+139.201.126.178:1204 - - [10/Dec/2016 22:06:46] "HTTP/1.1 GET /script" - 404 Not Found
+93.174.93.136:51121 - - [10/Dec/2016 22:28:24] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+201.149.12.190:51241 - - [11/Dec/2016 00:25:29] "HTTP/1.1 HEAD /" - 404 Not Found
+94.102.49.174:52391 - - [11/Dec/2016 00:28:42] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+185.110.132.231:58390 - - [11/Dec/2016 01:31:37] "HTTP/1.1 GET /" - 404 Not Found
+91.236.75.4:59158 - - [11/Dec/2016 03:58:19] "HTTP/1.1 GET reader/about/" - 404 Not Found
+80.82.65.90:40096 - - [11/Dec/2016 04:52:34] "HTTP/1.1 GET /recordings/" - 404 Not Found
+123.59.82.147:34694 - - [11/Dec/2016 06:07:54] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+49.4.133.192:3595 - - [11/Dec/2016 07:36:27] "HTTP/1.1 GET /script" - 404 Not Found
+139.129.236.53:61288 - - [11/Dec/2016 08:30:36] "HTTP/1.1 GET /manager/html" - 404 Not Found
+117.21.191.201:3161 - - [11/Dec/2016 13:50:26] "HTTP/1.1 GET /manager/html" - 404 Not Found
+91.236.75.4:53513 - - [11/Dec/2016 19:26:17] "HTTP/1.1 GET reader/about/" - 404 Not Found
+49.4.133.192:4814 - - [11/Dec/2016 23:23:26] "HTTP/1.1 GET /script" - 404 Not Found
+93.174.93.136:34971 - - [12/Dec/2016 02:46:45] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+213.136.71.231:41625 - - [12/Dec/2016 06:57:45] "HTTP/1.1 HEAD /" - 404 Not Found
+180.150.188.118:51226 - - [12/Dec/2016 07:27:51] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+123.63.194.179:4655 - - [12/Dec/2016 10:35:31] "HTTP/1.1 GET /" - 404 Not Found
+91.236.75.4:56755 - - [12/Dec/2016 13:19:50] "HTTP/1.1 GET reader/about/" - 404 Not Found
+94.102.49.174:36301 - - [12/Dec/2016 16:29:25] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+91.236.75.4:56715 - - [12/Dec/2016 18:00:57] "HTTP/1.1 GET reader/about/" - 404 Not Found
+8.35.160.94:50731 - - [12/Dec/2016 19:53:11] "HTTP/1.1 GET /hello" - 200 OK
+8.35.160.94:50734 - - [12/Dec/2016 19:53:14] "HTTP/1.1 GET /hello" - 200 OK
+8.35.160.94:50731 - - [12/Dec/2016 19:53:22] "HTTP/1.1 GET /hello" - 200 OK
+8.35.160.94:50758 - - [12/Dec/2016 19:53:37] "HTTP/1.1 GET /hello" - 200 OK
+8.35.160.94:50758 - - [12/Dec/2016 19:53:47] "HTTP/1.1 GET /hello" - 200 OK
+67.20.215.75:50372 - - [12/Dec/2016 19:55:36] "HTTP/1.1 GET /hello" - 200 OK
+8.37.52.195:49303 - - [12/Dec/2016 19:55:48] "HTTP/1.1 GET /hello" - 200 OK
+8.37.52.195:49303 - - [12/Dec/2016 19:55:52] "HTTP/1.1 GET /hello" - 200 OK
+67.20.215.75:50390 - - [12/Dec/2016 19:55:54] "HTTP/1.1 GET /hello" - 200 OK
+67.20.215.75:50396 - - [12/Dec/2016 19:56:13] "HTTP/1.1 GET /hello" - 200 OK
+67.20.215.75:50397 - - [12/Dec/2016 19:56:16] "HTTP/1.1 GET /hello" - 200 OK
+93.174.93.218:59202 - - [12/Dec/2016 23:22:12] "HTTP/1.1 GET " - 404 Not Found
+107.5.126.22:45521 - - [13/Dec/2016 03:11:05] "HTTP/1.1 GET /" - 404 Not Found
+107.5.126.22:45544 - - [13/Dec/2016 03:11:06] "HTTP/1.1 GET /" - 404 Not Found
+107.5.126.22:45574 - - [13/Dec/2016 03:11:08] "HTTP/1.1 GET /" - 404 Not Found
+107.5.126.22:45665 - - [13/Dec/2016 03:11:21] "HTTP/1.1 GET /" - 404 Not Found
+107.5.126.22:45619 - - [13/Dec/2016 03:11:22] "HTTP/1.1 GET /" - 404 Not Found
+107.5.126.22:45870 - - [13/Dec/2016 03:11:40] "HTTP/1.1 GET /" - 404 Not Found
+93.174.93.136:41978 - - [13/Dec/2016 07:11:20] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+120.132.49.91:35070 - - [13/Dec/2016 13:05:02] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+222.186.50.136:1298 - - [13/Dec/2016 13:21:36] "HTTP/1.1 GET /script" - 404 Not Found
+111.73.46.169:4925 - - [13/Dec/2016 14:00:59] "HTTP/1.1 GET /script/script" - 404 Not Found
+222.186.34.119:2149 - - [13/Dec/2016 14:10:43] "HTTP/1.1 GET /script" - 404 Not Found
+64.34.216.206:1050 - - [13/Dec/2016 15:13:53] "HTTP/1.1 GET /script/script" - 404 Not Found
+139.162.45.31:59176 - - [13/Dec/2016 17:04:38] "HTTP/1.1 GET echo.php" - 404 Not Found
+91.236.75.4:39984 - - [13/Dec/2016 18:41:10] "HTTP/1.1 GET reader/about/" - 404 Not Found
+190.35.126.35:60547 - - [14/Dec/2016 00:34:00] "HTTP/1.1 HEAD /" - 404 Not Found
+91.236.75.4:41062 - - [14/Dec/2016 01:44:38] "HTTP/1.1 GET reader/about/" - 404 Not Found
+222.186.34.119:3924 - - [14/Dec/2016 07:28:27] "HTTP/1.1 GET /manager/html" - 404 Not Found
+123.59.53.18:58196 - - [14/Dec/2016 09:59:18] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+93.174.93.136:56074 - - [14/Dec/2016 11:32:58] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+123.59.82.147:45339 - - [14/Dec/2016 11:33:58] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+111.73.46.169:2707 - - [14/Dec/2016 12:03:30] "HTTP/1.1 GET /" - 404 Not Found
+50.45.175.93:59820 - - [14/Dec/2016 18:08:31] "HTTP/1.1 HEAD /" - 404 Not Found
+120.27.112.237:63150 - - [14/Dec/2016 19:53:58] "HTTP/1.1 GET /" - 404 Not Found
+185.110.132.231:56204 - - [14/Dec/2016 20:47:33] "HTTP/1.1 GET /" - 404 Not Found
+103.212.223.106:60824 - - [14/Dec/2016 22:41:14] "HTTP/1.1 GET //jmx-console/HtmlAdaptor" - 404 Not Found
+125.211.216.235:53822 - - [15/Dec/2016 00:15:41] "HTTP/1.1 GET /manager/html" - 404 Not Found
+187.180.161.172:44596 - - [15/Dec/2016 01:06:30] "HTTP/1.1 GET /cgi/common.cgi" - 404 Not Found
+187.180.161.172:44600 - - [15/Dec/2016 01:06:30] "HTTP/1.1 GET /stssys.htm" - 404 Not Found
+187.180.161.172:44602 - - [15/Dec/2016 01:06:30] "HTTP/1.1 GET /" - 404 Not Found
+187.180.161.172:44604 - - [15/Dec/2016 01:06:31] "HTTP/1.1 POST /command.php" - 404 Not Found
+86.109.123.130:42276 - - [15/Dec/2016 02:09:47] "HTTP/1.1 HEAD /" - 404 Not Found
+71.43.7.58:46702 - - [15/Dec/2016 02:42:39] "HTTP/1.1 GET /" - 404 Not Found
+94.102.49.190:33216 - - [15/Dec/2016 07:05:11] "HTTP/1.1 GET /" - 404 Not Found
+45.32.12.209:64988 - - [15/Dec/2016 09:12:36] "HTTP/1.1 GET /manager/html" - 404 Not Found
+94.102.48.193:52082 - - [15/Dec/2016 09:34:34] "HTTP/1.1 GET /" - 404 Not Found
+91.236.75.4:57939 - - [15/Dec/2016 13:59:34] "HTTP/1.1 GET " - 404 Not Found
+59.127.29.60:36666 - - [15/Dec/2016 14:46:01] "HTTP/1.1 GET /" - 404 Not Found
+60.49.101.108:40551 - - [15/Dec/2016 14:57:12] "HTTP/1.1 GET /" - 404 Not Found
+118.163.191.42:54676 - - [15/Dec/2016 15:32:56] "HTTP/1.1 GET /" - 404 Not Found
+93.174.93.136:47009 - - [15/Dec/2016 15:57:02] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+187.190.105.70:43401 - - [15/Dec/2016 16:31:43] "HTTP/1.1 GET /" - 404 Not Found
+60.251.142.147:57678 - - [15/Dec/2016 16:31:46] "HTTP/1.1 GET /" - 404 Not Found
+221.6.203.225:3036 - - [15/Dec/2016 20:02:38] "HTTP/1.1 GET /script" - 404 Not Found
+31.129.94.113:33188 - - [15/Dec/2016 21:45:19] "HTTP/1.1 GET /" - 404 Not Found
+94.102.49.174:45502 - - [15/Dec/2016 21:59:25] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+211.157.19.82:63710 - - [15/Dec/2016 23:26:19] "HTTP/1.1 HEAD /phpmyadmin/index.php" - 404 Not Found
+115.135.176.6:36452 - - [15/Dec/2016 23:33:07] "HTTP/1.1 GET /" - 404 Not Found
+14.169.125.71:37282 - - [15/Dec/2016 23:37:05] "HTTP/1.1 GET /" - 404 Not Found
+95.80.99.14:55225 - - [15/Dec/2016 23:44:55] "HTTP/1.1 GET /" - 404 Not Found
+91.236.75.4:43839 - - [16/Dec/2016 03:27:33] "HTTP/1.1 GET " - 404 Not Found
+220.133.119.67:48313 - - [16/Dec/2016 04:57:28] "HTTP/1.1 GET /" - 404 Not Found
+49.206.193.83:49355 - - [16/Dec/2016 08:52:12] "HTTP/1.1 GET /" - 404 Not Found
+123.59.70.63:55884 - - [16/Dec/2016 10:24:11] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+89.248.167.131:45849 - - [16/Dec/2016 12:06:32] "HTTP/1.1 GET /" - 404 Not Found
+82.135.95.75:60829 - - [16/Dec/2016 13:16:43] "HTTP/1.1 GET /Diagnostics.asp" - 404 Not Found
+169.54.233.120:38297 - - [16/Dec/2016 14:32:27] "HTTP/1.1 GET /" - 404 Not Found
+91.236.75.4:52758 - - [16/Dec/2016 16:31:40] "HTTP/1.1 GET " - 404 Not Found
+117.0.32.49:57735 - - [16/Dec/2016 17:40:05] "HTTP/1.1 GET /manager/html" - 404 Not Found
+198.20.69.74:35300 - - [16/Dec/2016 18:50:20] "HTTP/1.1 GET /" - 404 Not Found
+198.20.69.74:35446 - - [16/Dec/2016 18:50:20] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+198.20.69.74:35549 - - [16/Dec/2016 18:50:20] "HTTP/1.1 GET /sitemap.xml" - 404 Not Found
+83.65.62.29:47774 - - [16/Dec/2016 19:57:53] "HTTP/1.1 HEAD /" - 404 Not Found
+93.174.93.136:33980 - - [16/Dec/2016 20:21:53] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+108.206.42.37:51461 - - [16/Dec/2016 20:48:43] "HTTP/1.1 GET /" - 404 Not Found
+87.126.47.70:50754 - - [16/Dec/2016 21:22:31] "HTTP/1.1 GET /" - 404 Not Found
+180.150.187.149:44648 - - [16/Dec/2016 21:39:25] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+222.186.34.119:4088 - - [17/Dec/2016 09:56:48] "HTTP/1.1 GET /" - 404 Not Found
+31.168.156.35:42958 - - [17/Dec/2016 10:32:58] "HTTP/1.1 GET /" - 404 Not Found
+122.200.94.210:3165 - - [17/Dec/2016 11:23:17] "HTTP/1.1 GET /login.action" - 404 Not Found
+122.200.94.210:3166 - - [17/Dec/2016 11:23:17] "HTTP/1.1 GET /login.action" - 404 Not Found
+94.102.49.174:51431 - - [17/Dec/2016 14:13:25] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+175.145.202.70:51556 - - [17/Dec/2016 15:07:43] "HTTP/1.1 GET /" - 404 Not Found
+222.186.34.119:4878 - - [17/Dec/2016 22:01:19] "HTTP/1.1 GET /script" - 404 Not Found
+93.174.93.136:43524 - - [18/Dec/2016 00:41:34] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+96.88.123.101:44395 - - [18/Dec/2016 00:54:32] "HTTP/1.1 GET /" - 404 Not Found
+178.32.44.164:56330 - - [18/Dec/2016 05:35:33] "HTTP/1.1 GET /w00tw00t.at.ISC.SANS.DFind:)" - 404 Not Found
+212.92.127.143:60000 - - [18/Dec/2016 14:47:31] "HTTP/1.1 GET /" - 404 Not Found
+195.2.253.2:60000 - - [18/Dec/2016 17:05:54] "HTTP/1.1 GET /" - 404 Not Found
+95.236.203.209:52074 - - [19/Dec/2016 03:58:24] "HTTP/1.1 GET /" - 404 Not Found
+93.174.93.136:59757 - - [19/Dec/2016 05:03:17] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+120.132.68.142:48670 - - [19/Dec/2016 05:16:00] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+94.102.49.174:35158 - - [19/Dec/2016 06:24:09] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+14.63.163.20:56476 - - [19/Dec/2016 07:19:47] "HTTP/1.1 GET /" - 404 Not Found
+95.167.45.94:49871 - - [19/Dec/2016 09:29:56] "HTTP/1.1 GET /" - 404 Not Found
+123.59.57.251:49209 - - [19/Dec/2016 13:50:37] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+218.31.50.19:54461 - - [20/Dec/2016 00:08:24] "HTTP/1.1 GET /computer/" - 404 Not Found
+84.40.2.180:60096 - - [20/Dec/2016 00:09:44] "HTTP/1.1 HEAD /" - 404 Not Found
+198.55.103.74:3356 - - [20/Dec/2016 06:29:58] "HTTP/1.1 GET /manager/html" - 404 Not Found
+187.37.140.56:33920 - - [20/Dec/2016 07:28:13] "HTTP/1.1 GET /cgi/common.cgi" - 404 Not Found
+187.37.140.56:33921 - - [20/Dec/2016 07:28:14] "HTTP/1.1 GET /stssys.htm" - 404 Not Found
+187.37.140.56:33923 - - [20/Dec/2016 07:28:14] "HTTP/1.1 GET /" - 404 Not Found
+187.37.140.56:33925 - - [20/Dec/2016 07:28:14] "HTTP/1.1 POST /command.php" - 404 Not Found
+176.119.28.116:41682 - - [20/Dec/2016 08:08:55] "HTTP/1.1 GET /" - 404 Not Found
+93.174.93.136:52478 - - [20/Dec/2016 09:20:32] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+74.15.40.74:47954 - - [20/Dec/2016 10:41:15] "HTTP/1.1 GET /" - 404 Not Found
+123.59.62.69:36172 - - [20/Dec/2016 10:59:41] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+198.55.103.74:4069 - - [20/Dec/2016 12:39:37] "HTTP/1.1 GET /manager/html" - 404 Not Found
+191.222.105.111:35792 - - [20/Dec/2016 13:36:18] "HTTP/1.1 GET /" - 404 Not Found
+139.162.45.31:48902 - - [20/Dec/2016 14:49:05] "HTTP/1.1 GET echo.php" - 404 Not Found
+151.237.40.124:52849 - - [20/Dec/2016 15:02:44] "HTTP/1.1 GET /" - 404 Not Found
+198.20.69.74:34940 - - [20/Dec/2016 16:32:24] "HTTP/1.1 GET /" - 404 Not Found
+198.20.69.74:35010 - - [20/Dec/2016 16:32:24] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+198.20.69.74:35054 - - [20/Dec/2016 16:32:24] "HTTP/1.1 GET /sitemap.xml" - 404 Not Found
+94.102.49.174:50229 - - [20/Dec/2016 22:26:33] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+103.37.144.252:49986 - - [21/Dec/2016 01:13:23] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+208.100.26.231:51695 - - [21/Dec/2016 04:43:08] "HTTP/1.1 GET /" - 404 Not Found
+208.100.26.231:38247 - - [21/Dec/2016 04:43:18] "HTTP/1.1 OPTIONS /" - 404 Not Found
+208.100.26.231:38608 - - [21/Dec/2016 04:43:18] "HTTP/1.1 OPTIONS /" - 404 Not Found
+208.100.26.231:47582 - - [21/Dec/2016 04:43:27] "HTTP/1.1 GET /nice ports,/Trinity.txt.bak" - 404 Not Found
+208.100.26.231:37477 - - [21/Dec/2016 04:45:43] "HTTP/1.1 GET /" - 404 Not Found
+208.100.26.231:42892 - - [21/Dec/2016 04:45:49] "HTTP/1.1 HEAD /" - 404 Not Found
+208.100.26.231:43101 - - [21/Dec/2016 04:45:49] "HTTP/1.1 GET /" - 404 Not Found
+70.60.75.66:55842 - - [21/Dec/2016 06:02:06] "HTTP/1.1 GET /" - 404 Not Found
+91.236.75.4:48561 - - [21/Dec/2016 11:13:27] "HTTP/1.1 GET " - 404 Not Found
+198.55.103.74:4103 - - [21/Dec/2016 12:15:46] "HTTP/1.1 GET /manager/html" - 404 Not Found
+93.174.93.136:35846 - - [21/Dec/2016 13:39:15] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+91.236.75.4:45912 - - [21/Dec/2016 21:17:39] "HTTP/1.1 GET " - 404 Not Found
+91.236.75.4:57303 - - [21/Dec/2016 23:48:21] "HTTP/1.1 GET " - 404 Not Found
+123.59.69.128:39423 - - [22/Dec/2016 00:21:35] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+221.194.44.229:4301 - - [22/Dec/2016 07:46:42] "HTTP/1.1 GET /script" - 404 Not Found
+91.236.75.4:50431 - - [22/Dec/2016 09:04:09] "HTTP/1.1 GET " - 404 Not Found
+221.194.44.229:3338 - - [22/Dec/2016 10:05:38] "HTTP/1.1 GET /manager/html" - 404 Not Found
+123.59.70.63:43993 - - [22/Dec/2016 10:37:21] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+94.102.49.174:39026 - - [22/Dec/2016 14:29:53] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+94.102.48.194:57653 - - [22/Dec/2016 17:36:25] "HTTP/1.1 GET /" - 404 Not Found
+93.174.93.136:44660 - - [22/Dec/2016 18:00:15] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+91.236.75.4:33372 - - [22/Dec/2016 18:56:32] "HTTP/1.1 GET " - 404 Not Found
+82.78.239.15:40823 - - [22/Dec/2016 23:42:40] "HTTP/1.1 GET /" - 404 Not Found
+91.236.75.4:37425 - - [23/Dec/2016 03:39:35] "HTTP/1.1 GET " - 404 Not Found
+198.55.103.74:4450 - - [23/Dec/2016 05:14:32] "HTTP/1.1 GET /manager/html" - 404 Not Found
+61.164.149.211:54719 - - [23/Dec/2016 12:41:22] "HTTP/1.1 GET " - 404 Not Found
+180.150.187.160:48420 - - [23/Dec/2016 15:24:20] "HTTP/1.1 GET favicon.ico" - 404 Not Found
+183.61.254.7:1706 - - [23/Dec/2016 16:59:15] "HTTP/1.1 GET /phpmyadmin" - 404 Not Found
